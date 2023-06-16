@@ -16,10 +16,10 @@ phases:
   build:
     commands:
       - echo "Building the application..."
-      - npm run build
+     # - npm run build
 
   post_build:
     commands:
       - echo "Running post-build tasks..."
       - npm run test
-      - npm run deploy
+     # - npm run deploy
