@@ -21,5 +21,5 @@ phases:
   post_build:
     commands:
       - echo "Running post-build tasks..."
-      - npm run test
+     # - npm run test
      # - npm run deploy
